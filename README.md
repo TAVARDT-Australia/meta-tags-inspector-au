@@ -1,4 +1,4 @@
-# Meta Tags and Open Graph Inspector | TAVARDT Australia
+# Meta Tags and Open Graph Inspector
 
 [![Meta Tags Inspector](https://img.shields.io/badge/TAVARDT-Meta%20Tags-5b3cf5.svg)](https://tools.tavardt.com/au/meta-tags-checker/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -49,3 +49,7 @@ To evaluate web metadata and inspect social previews:
 ## Australian Digital Standards and SEO Advisory
 
 For enterprise search strategy and alignment with Australian Web Standards and W3C Specifications, consult the advisory practice at **TAVARDT Australia**.
+
+***
+
+© 2026 TAVARDT. All rights reserved.
