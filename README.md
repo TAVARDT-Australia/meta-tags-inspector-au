@@ -52,4 +52,12 @@ For enterprise search strategy and alignment with Australian Web Standards and W
 
 ***
 
+## Useful Links
+
+* **Corporate Portal:** https://ag.tavardt.com/au/
+* **Diagnostic Suite:** https://tools.tavardt.com/au/
+* **Technical Contact:** https://ag.tavardt.com/au/contact/
+
+***
+
 © 2026 TAVARDT. All rights reserved.
