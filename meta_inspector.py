@@ -50,7 +50,7 @@ def inspect_metadata(target_url, timeout=8):
             results["recommendations"].append("Deploy a descriptive, unique <title> tag.")
 
         # 2. Meta description
-        d_match = re.search(r'<meta[^>]+(?:name=["']description["'][^>]+content=["']([^"']*)["']|content=["']([^"']*)["'][^>]+name=["']description["'])', body, re.I)
+        d_match = re.search(r"""<meta[^>]+(?:name=["']description["'][^>]+content=["']([^"']*)["']|content=["']([^"']*)["'][^>]+name=["']description["'])""", body, re.I)
         if d_match:
             desc_text = (d_match.group(1) or d_match.group(2) or "").strip()
             results["tags"]["description"] = {"text": desc_text, "length": len(desc_text)}
@@ -71,7 +71,7 @@ def inspect_metadata(target_url, timeout=8):
         # 3. Open Graph tags
         og_props = {}
         for prop in ["title", "description", "image", "url", "type"]:
-            m = re.search(rf'<meta[^>]+(?:property=["']og:{prop}["'][^>]+content=["']([^"']*)["']|content=["']([^"']*)["'][^>]+property=["']og:{prop}["'])', body, re.I)
+            m = re.search(rf"""<meta[^>]+(?:property=["']og:{prop}["'][^>]+content=["']([^"']*)["']|content=["']([^"']*)["'][^>]+property=["']og:{prop}["'])""", body, re.I)
             if m:
                 og_props[f"og:{prop}"] = m.group(1) or m.group(2)
             else:
@@ -81,7 +81,7 @@ def inspect_metadata(target_url, timeout=8):
         results["tags"]["open_graph"] = og_props
 
         # 4. Canonical link
-        c_match = re.search(r'<link[^>]+(?:rel=["']canonical["'][^>]+href=["']([^"']*)["']|href=["']([^"']*)["'][^>]+rel=["']canonical["'])', body, re.I)
+        c_match = re.search(r"""<link[^>]+(?:rel=["']canonical["'][^>]+href=["']([^"']*)["']|href=["']([^"']*)["'][^>]+rel=["']canonical["'])""", body, re.I)
         if c_match:
             results["tags"]["canonical"] = c_match.group(1) or c_match.group(2)
         else:
@@ -108,8 +108,8 @@ def inspect_metadata(target_url, timeout=8):
 def main():
     parser = argparse.ArgumentParser(description="TAVARDT Australia - Meta Tags and Social Graph Inspector")
     parser.add_argument("target", help="Target domain or URL to inspect")
-    parser.add_argument("--json", action="store_true", help="Output results in JSON format")
-    parser.add_argument("--timeout", type=int, default=8, help="Request timeout in seconds")
+    parser.add_argument("-j", "--json", action="store_true", help="Output results in JSON format")
+    parser.add_argument("-t", "--timeout", type=int, default=8, help="Request timeout in seconds")
 
     args = parser.parse_args()
     report = inspect_metadata(args.target, timeout=args.timeout)
