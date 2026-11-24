@@ -1,14 +1,13 @@
 # Meta Tags and Open Graph Inspector | TAVARDT Australia
 
 [![Meta Tags Inspector](https://img.shields.io/badge/TAVARDT-Meta%20Tags-5b3cf5.svg)](https://tools.tavardt.com/au/meta-tags-checker/)
-[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-Australia-00C853.svg)](https://ag.tavardt.com/au/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 
 Automated HTML metadata evaluation tool for Australian websites, ensuring search snippet optimization and social media card rendering.
 
-Engineered and maintained by the search and digital performance team at **[TAVARDT Australia](https://ag.tavardt.com/au/)**.
+Engineered and maintained by the search and digital performance team at **TAVARDT Australia**.
 
----
+***
 
 ## Metadata and Social Card Audit Capabilities
 
@@ -18,7 +17,7 @@ Engineered and maintained by the search and digital performance team at **[TAVAR
 * **Crawl and Canonical Verification**: Audits robots meta tags and canonical links to prevent duplicate content indexing.
 * **Metadata Quality Score**: Quantitative 0 to 100 rating detailing actionable improvements for organic listings.
 
----
+***
 
 ## Installation and Execution
 
@@ -33,20 +32,20 @@ python meta_inspector.py example.com.au
 To run in automated pipelines with JSON output:
 
 ```bash
-python meta_inspector.py example.com.au --json
+python meta_inspector.py example.com.au -json
 ```
 
----
+***
 
 ## Online Diagnostic Platform
 
 To evaluate web metadata and inspect social previews:
 
-* **[Official Meta Tags Inspector](https://tools.tavardt.com/au/meta-tags-checker/)**
-* **[TAVARDT Australia Portal](https://ag.tavardt.com/au/)**
+* **Official Meta Tags Inspector**
+* **TAVARDT Australia Portal**
 
----
+***
 
 ## Australian Digital Standards and SEO Advisory
 
-For enterprise search strategy and alignment with Australian Web Standards and W3C Specifications, consult the advisory practice at **[TAVARDT Australia](https://ag.tavardt.com/au/contact/)**.
+For enterprise search strategy and alignment with Australian Web Standards and W3C Specifications, consult the advisory practice at **TAVARDT Australia**.
