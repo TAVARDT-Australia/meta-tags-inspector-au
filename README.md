@@ -5,7 +5,7 @@
 
 Automated HTML metadata evaluation tool for Australian websites, ensuring search snippet optimization and social media card rendering.
 
-Engineered and maintained by the search and digital performance team at **TAVARDT Australia**.
+Engineered and maintained by the search and digital performance team at **TAVARDT**.
 
 ***
 
@@ -42,13 +42,13 @@ python meta_inspector.py example.com.au -json
 To evaluate web metadata and inspect social previews:
 
 * **Official Meta Tags Inspector**
-* **TAVARDT Australia Portal**
+* **TAVARDT Portal**
 
 ***
 
 ## Australian Digital Standards and SEO Advisory
 
-For enterprise search strategy and alignment with Australian Web Standards and W3C Specifications, consult the advisory practice at **TAVARDT Australia**.
+For enterprise search strategy and alignment with Australian Web Standards and W3C Specifications, consult the advisory practice at **TAVARDT**.
 
 ***
 
