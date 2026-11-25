@@ -2,6 +2,7 @@
 
 [![Meta Tags Inspector](https://img.shields.io/badge/TAVARDT-Meta%20Tags-5b3cf5.svg)](https://tools.tavardt.com/au/meta-tags-checker/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Automated HTML metadata evaluation tool for Australian websites, ensuring search snippet optimization and social media card rendering.
 
@@ -57,6 +58,11 @@ For enterprise search strategy and alignment with Australian Web Standards and W
 * **Corporate Portal:** https://ag.tavardt.com/au/
 * **Diagnostic Suite:** https://tools.tavardt.com/au/
 * **Technical Contact:** https://ag.tavardt.com/au/contact/
+
+***
+
+### License
+Released under the MIT License. See [LICENSE](LICENSE) for full details.
 
 ***
 
